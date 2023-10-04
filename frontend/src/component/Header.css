@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white; 
+    justify-content: space-around;
+}
+
+.header h1{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+
+.header input{
+    height: 26px;
+    width: 250px;
+    margin-top: 28px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    color: rgb(29, 29, 54);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-user{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.cart{
+    font-size: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.user{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .header input{
+       width: 200px;
+    }
+    .cart{
+        margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .header input{
+       display: none;
+    }
+    .cart{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header input{
+       display: none;
+    }
+    .cart-user{
+        display: none;
+    }
+}

@@ -2,6 +2,9 @@
 
 This is a "Ecommerce one page website" built with React and Node.js, consisting of both frontend and backend components. 
 
+## You Can direclty go through this project using this link -
+mobilestore-by-agyapalsingh.netlify.app
+
 To get started, follow these steps:
 
 ## Download Zip file and Extract it in your computer
